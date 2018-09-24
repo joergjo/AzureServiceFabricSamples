@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "OwinAppInsightsApplication", "OwinAppInsightsApplication\OwinAppInsightsApplication.sfproj", "{3312CC49-4297-4ABE-BC0E-32B2D74CEFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{1E94321D-8AD8-4932-8BCA-1E05908E6ED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3312CC49-4297-4ABE-BC0E-32B2D74CEFB0}.Debug|x64.ActiveCfg = Debug|x64
+		{3312CC49-4297-4ABE-BC0E-32B2D74CEFB0}.Debug|x64.Build.0 = Debug|x64
+		{3312CC49-4297-4ABE-BC0E-32B2D74CEFB0}.Debug|x64.Deploy.0 = Debug|x64
+		{3312CC49-4297-4ABE-BC0E-32B2D74CEFB0}.Release|x64.ActiveCfg = Release|x64
+		{3312CC49-4297-4ABE-BC0E-32B2D74CEFB0}.Release|x64.Build.0 = Release|x64
+		{3312CC49-4297-4ABE-BC0E-32B2D74CEFB0}.Release|x64.Deploy.0 = Release|x64
+		{1E94321D-8AD8-4932-8BCA-1E05908E6ED5}.Debug|x64.ActiveCfg = Debug|x64
+		{1E94321D-8AD8-4932-8BCA-1E05908E6ED5}.Debug|x64.Build.0 = Debug|x64
+		{1E94321D-8AD8-4932-8BCA-1E05908E6ED5}.Release|x64.ActiveCfg = Release|x64
+		{1E94321D-8AD8-4932-8BCA-1E05908E6ED5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {222A3D62-35B6-44AC-8677-9BB891192CF0}
+	EndGlobalSection
+EndGlobal
